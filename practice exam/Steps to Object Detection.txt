@@ -1,0 +1,17 @@
+﻿Create functions to handle everything:
+* Function to display images (simple plt.imshow)
+* Download and resize the data (PIL functions)
+* Draw bounding boxes (using corners of objects in the image
+* Drawing boxes (use the to previous functions to create the boxes)
+* Load image function (image path as argument, decode image)
+* Run detector (takes the loaded image and predicts on it)
+
+
+
+
+
+
+
+
+* Get the data (apply the transformation using the download and resize function)
+* Get the module, create the detector (hub.load(path).signatures=[‘default’])
